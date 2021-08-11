@@ -9,3 +9,5 @@ Scripts included so far:
 - "rbb.irl.vprot3.sh"
 - "rbb.irl.vprot4.sh"
 - "rbb.process.sh"
+- "iqtree"
+- "motif prediction"
