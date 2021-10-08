@@ -1,0 +1,30 @@
+makeblast 
+makeblast 
+makeblast 
+
+makeblastdb -in GCF_000001735.4_TAIR10.1_genomic.fna -dbtype nucl -out   ~/../../scratch/projects/illorens/Motif_search/NINbe/blast_db/GCF_000001735.4_TAIR10.1_genomic.fna
+makeblastdb -in Cicer.fna -dbtype nucl -out   ~/../../scratch/projects/illorens/Motif_search/NINbe/blast_db/Cicer.fna
+makeblastdb -in Aradur.fna -dbtype nucl -out   ~/../../scratch/projects/illorens/Motif_search/NINbe/blast_db/Aradur.fna
+makeblastdb -in Glymax.fna -dbtype nucl -out   ~/../../scratch/projects/illorens/Motif_search/NINbe/blast_db/Glymax.fna
+makeblastdb -in Lupang.fna -dbtype nucl -out   ~/../../scratch/projects/illorens/Motif_search/NINbe/blast_db/Lupang.fna
+makeblastdb -in GCA_000219495.2_MedtrA17_4.0_genomic.fna -dbtype nucl -out   ~/../../scratch/projects/illorens/Motif_search/NINbe/blast_db/GCA_000219495.2_MedtrA17_4.0_genomic.fna
+
+
+sbatch ./scripts/rbb.irl.v1.2.sh ~/data/genomes_key_14062021.txt ~/data/LYK3forblast.fasta LYK3
+sbatch ./scripts/rbb.irl.v1.2.sh ~/data/genomes_key_14062021_2.txt ~/data/LYK3forblast.fasta LYK3
+
+sbatch ./scripts/rbb.irl.v1.2.sh ~/data/genomes_key_14062021_3.txt ~/data/LYK3forblast.fasta LYK3
+
+done
+Pruper  Prunus_persica_v2.0.a1_scaffolds.fasta
+
+makeblastdb -in Lotjap.proteome.fasta -dbtype prot -out Lotjap
+makeblastdb -in Lupang.proteome.fasta -dbtype prot -out Lupang
+makeblastdb -in Glymax.proteome.fasta -dbtype prot -out Glymax
+makeblastdb -in Cicer.proteome.fasta -dbtype prot -out Cicer.
+makeblastdb -in Aradur.proteome.fasta -dbtype prot -out Aradur
+makeblastdb -in Aradur.prot.fasta -dbtype prot -out Aradur
+makeblastdb -in Lupang.prot.fasta -dbtype prot -out Lupang
+makeblastdb -in Glymax.prot.fasta -dbtype prot -out Glymax
+makeblastdb -in Cicer.prot.fasta -dbtype prot -out Cicer
+makeblastdb -in Casgla_aa.fasta -dbtype prot -out Casgla

@@ -1,0 +1,10 @@
+#sbatch ./scripts/rbb.irl.p1.sh ~/data/genomes_key_20082021.txt  ~/../../scratch/projects/illorens/Motif_search/NINbe/SYMRK/symrk_vascular_plants_clade_forENSA_prot.fa  SYMRK
+sbatch ./scripts/rbb.irl.p1.sh ~/data/genomes_key_20082021_forsymrk.txt  ~/../../scratch/projects/illorens/Motif_search/NINbe/SYMRK/symrk_vascular_plants_clade_forENSA_prot.fa  SYMRK
+sbatch ./scripts/rbb.irl.p1.sh ~/data/genomes_key_20082021.txt  ~/../../scratch/projects/illorens/Motif_search/NINbe/RPG/RPG.forblast.fasta RPG
+sbatch ./scripts/rbb.irl.p1.sh ~/data/genomes_key_20082021.txt  ~/../../scratch/projects/illorens/Motif_search/NINbe/CYCLOPS/cyclops_fullclade_forENSA_prot.fa  CYCLOPS
+sbatch ./scripts/rbb.irl.p1.sh ~/data/genomes_key_20082021.txt  ~/../../scratch/projects/illorens/Motif_search/NINbe/CCAMK/ccamk_streptoclade_forENSA_translated.fasta    CCAMK
+sbatch ./scripts/rbb.irl.p1.sh ~/data/genomes_key_20082021.txt  ~/../../scratch/projects/illorens/Motif_search/NINbe/NSP/nsp1_fullclade_forENSA_prot.fa NSP
+sbatch ./scripts/rbb.irl.p1.sh ~/data/genomes_key_20082021.txt  ~/../../scratch/projects/illorens/Motif_search/NINbe/LYK3/LYK3.proteins.fasta   LYK3
+
+sbatch ./scripts/rbb.irl.p1.sh ~/data/genomes_key_20082021.txt  ~/../../scratch/projects/illorens/Motif_search/NINbe/NIN4/ninnlp.all.targets.fasta   NIN4
+

@@ -1,0 +1,2 @@
+queryHits,dbHits,bestHits
+,,0
