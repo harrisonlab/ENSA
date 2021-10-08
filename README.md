@@ -8,7 +8,6 @@ There are 4 main folders where the scripts reside:
 - motif_prediction
 - rnaseq_analysis
 
-
 <Genome annotation>
 
 This folder has the scripts used for the *de novo* annotation of the genomes. 
