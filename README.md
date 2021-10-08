@@ -2,7 +2,10 @@
 
 This repository contains the scripts used for the ENSA project. 
 
-Scripts included so far: 
+There are 3 different folders depending on the particular application:
+
+
+genome_annotations
 
 - "softmak_genome.irl3.sh" Uses RepeatModeler and RepeatClassifier for masking genomes
 - "braker2"
