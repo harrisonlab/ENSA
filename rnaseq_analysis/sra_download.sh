@@ -6,6 +6,8 @@
 #SBATCH --cpus-per-task=4
 
 
+#bulk download of SRA files for RNAseq
+
 export MYCONDAPATH=/home/illorens/miniconda3
 
 source ${MYCONDAPATH}/bin/activate irl_rnaseq 
@@ -13,6 +15,8 @@ source ${MYCONDAPATH}/bin/activate irl_rnaseq
 export DATA=~/../../projects/ensa/plants/RNAseq
 
 cd ${DATA}
+
+
 
 echo "pre-fetching:"
 #modify this part accordingly adding the sra ids

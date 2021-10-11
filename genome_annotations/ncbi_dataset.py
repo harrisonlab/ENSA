@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 
-
-
-
+#code for downloading assemblies from ncbi. Taken from:
+#https://www.ncbi.nlm.nih.gov/datasets/
 from __future__ import print_function
 import sys
 import zipfile
