@@ -7,6 +7,10 @@ import numpy as np
 import sys
 
 
+#This is work in progress. The code takes a fasta file and a number for the kmer size and will 
+# analyze kmers for similarity against a sequence (PACE element). Then it calculates
+# the levenshtein distance to define similarity. 
+
 #run this on terminal 
 #CHECK THE FASTA FILE IS NOT CORRUPTED
 #for info about jellyfish look at: http://www.genome.umd.edu/docs/JellyfishUserGuide.pdf
