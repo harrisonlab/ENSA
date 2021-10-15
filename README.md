@@ -29,7 +29,7 @@ This folder has the scripts used for the *de novo* annotation of the genomes.
 - "iqtree"
 
 <motif_prediction> 
-This folder has the scripts used for motif analysis. 
+This folder has some of the scripts used for analysing motif data. 
 
 <rnaseq_analysis> 
 This folder has the scripts used for analyzing RNAseq data. 
