@@ -1,3 +1,10 @@
+
+######
+###  This is not a script but a series of functions, for loops and pseudocode to manually process some of the data #####
+###
+
+
+
 # add key to fasta headers and  make promoters sl
 
 for i in ./*/
