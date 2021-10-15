@@ -5,6 +5,8 @@
 #SBATCH --mem=70G
 #SBATCH --cpus-per-task=30
 
+#Script to mask a genome $d. It uses repeat Modeler and repeat Masker to do so. The output is a softmasked genome. 
+# The settings can be modified to get a hardmasked genome. However it is recommended to use a softmasked one for annotation. 
 
 d=$1
 
@@ -24,11 +26,8 @@ echo "database built IRL"
 RepeatModeler -database ${d}.DB -engine ncbi -pa 30
 
 echo "RepeatModeler done IRL"
-# I had an error because some databases were not included during the installation 
+# Sometimes you can have an error due to some databases not being included during the installation 
 #had to install them manually and run RepeatClassifier manually using the following parameters
-
-#RepeatClassifier -pa 30  -consensi RM_*/consensi.fa -stockholm RM_*/families.stk
-#CALL masking_env2 in conda (conda activate)
 
 {
     if [ ! -f RM_*/consensi.fa.classified ]

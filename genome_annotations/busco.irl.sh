@@ -4,13 +4,18 @@
 #SBATCH --mem=25G
 #SBATCH --cpus-per-task=40
 
-
+#Script to run BUSCO on a list of genomes. It requires a txt file $QUERY_LOC that contains:
+# output name and
+# genome file
+# It will iterate from the list and run busco on each genome. 
 
 export MYCONDAPATH=/home/illorens/miniconda3
 
 source ${MYCONDAPATH}/bin/activate buscoenv
 
 export DATA=~/../../scratch/projects/illorens/phylogenomics
+
+
 
 cd ${DATA}
 QUERY_LOC=$1
