@@ -16,7 +16,7 @@ export PATH="/scratch/software/cdbfasta/:$PATH"
 # protein database ($proteins)
 # a name of the species ($species) (for some reason it cant be used twice)
 # the name of the output directory $outdir (try to set a new one if repeating the analysis) 
-# directory where the rnaseq data is localized $rnaseqdir
+# directory where the rnaseq data is localized $rnaseqdir. !IMPORTANT RNAseq data needs to be mapped to the genome and converted to .bam (see rnaseq_analysis folder)
 
 # For example: 
 # sbatch ./scripts/braker_annew_prot_and_rna.sh ./data/genomes_available/Cercocarpus_montanus.softmasked.fasta ./data/proteomes/diamond_proteins/proteins.fasta Cermonv2 ~/../../scratch/projects/illorens/genome_annotation/out/braker_out/Cermonv2  ~/../../projects/ensa/plants/RNAseq/raw_data/Cermon/

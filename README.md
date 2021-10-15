@@ -14,11 +14,8 @@ There are 4 main folders where the scripts reside:
 
 This folder has the scripts used for the *de novo* annotation of the genomes. 
 - "softmasking.irl.sh" Uses RepeatModeler and RepeatClassifier for masking genomes
-- "braker2"
-- "braker_annew_prot_and_rna.sh" modified version of anne's for running braker2.
-- "braker_annew.sh" Original annew braker code.
-- "braker_irl_prot_and_rna.sh" braker2 using protein and rna.
-- "braker_irl_prot_and_rna.v2.sh" braker2 using protein and rna new version.
+- "braker_aw" Test script for braker2 developed by AnneW.
+- "braker_irl_prot_and_rna.sh" modified version of anne's for running braker2 on proteins and RNAseq data.
 - "busco.irl.sh"  Code for running busco.
 - "ncbi_dataset.py"  Code for downloading bulk assemblies from ncbi.
 - "softmasking.irl.sh" Code for softmasking genomes.
