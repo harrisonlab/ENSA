@@ -23,29 +23,20 @@ export DATA=../../projects/ensa/plants/RNAseq/Casgla
 cd ${DATA}
 
 
-#GENOME=$1
+GENOME=$1
 
 
-#hisat2-build ${GENOME} ${GENOME%.*}
+hisat2-build ${GENOME} ${GENOME%.*}
+hisat2 -p 20 -x ${GENOME} -1 SRR534922${SLURM_ARRAY_TASK_ID}.clean_1.fastq.gz -2 SRR534922${SLURM_ARRAY_TASK_ID}.clean_2.fastq.gz -S SRR534922${SLURM_ARRAY_TASK_ID}.sam 
 
-#hisat2 -p 20 -x ${GENOME} -1 SRR534922${SLURM_ARRAY_TASK_ID}.clean_1.fastq.gz -2 SRR534922${SLURM_ARRAY_TASK_ID}.clean_2.fastq.gz -S SRR534922${SLURM_ARRAY_TASK_ID}.sam 
-
-
-#conda deactivate
-#Convert sam to bam, and sort
-
-#samtools view -@ 20 -bS SRR534922${SLURM_ARRAY_TASK_ID}.sam| samtools sort -o SRR534922${SLURM_ARRAY_TASK_ID}.bam
-
-#for i in *.bam; do  bamCoverage -b $i -o ${i}.fwd.out --filterRNAstrand forward -bs 10 -of bedgraph;  bamCoverage -b $i -o ${i}.rev.out --filterRNAstrand reverse -bs 10 -of bedgraph; done
-
-samtools index SRR51456${SLURM_ARRAY_TASK_ID}.bam -@20 
-
-bamCoverage -b SRR51456${SLURM_ARRAY_TASK_ID}.bam -o SRR51456${SLURM_ARRAY_TASK_ID}.bedgraph -bs 10 -of bedgraph;
 
 conda deactivate
+#Convert sam to bam, and sort
+samtools view -@ 20 -bS SRR534922${SLURM_ARRAY_TASK_ID}.sam| samtools sort -o SRR534922${SLURM_ARRAY_TASK_ID}.bam
+for i in *.bam; do  bamCoverage -b $i -o ${i}.fwd.out --filterRNAstrand forward -bs 10 -of bedgraph;  bamCoverage -b $i -o ${i}.rev.out --filterRNAstrand reverse -bs 10 -of bedgraph; done
 
-#Check alignment quality with Picard
 
-#java -jar picard.jar CollectAlignmentSummaryMetrics \
-# REFERENCE_SEQUENCE=${DBDIR}/${GENOME} INPUT=${R1_FQ%.*}_sorted.bam \
-# OUPUT=${R1_FQ%.*}.bam_alignment.stats
+#Use this is if you have already generated a bam file. No need to make an index, alignment etc again.
+#samtools index SRR51456${SLURM_ARRAY_TASK_ID}.bam -@20 
+#bamCoverage -b SRR51456${SLURM_ARRAY_TASK_ID}.bam -o SRR51456${SLURM_ARRAY_TASK_ID}.bedgraph -bs 10 -of bedgraph;
+#conda deactivate

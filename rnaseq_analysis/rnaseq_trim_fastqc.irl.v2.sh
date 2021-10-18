@@ -9,9 +9,12 @@ export MYCONDAPATH=/home/illorens/miniconda3
 
 source ${MYCONDAPATH}/bin/activate testenv 
 
+#Script for trimming and run fastqc for QC of RNAseq data. 
+#script searchs for all fq files in each folder, runs FASTQC before trimming.
+#FASTQC results go to an OUTDIR named by the date. 
+#After that, it uses bbduk for trimming creating a new file *.clean.*.fq.gz for the fwd and reverse sample. 
+#FASTQC is run again on the *clean* samples. 
 
-#export DATA=../../projects/ensa/plants/D_glom/rna-seq/rnaseq_pairend/
-#export DATA=~/../../projects/ensa/plants/RNAseq/
 export DATA=~/../../projects/ensa/plants/RNAseq/raw_data
 
 cd ${DATA}
@@ -24,8 +27,6 @@ f=`basename $i`
 echo $f
 
 cd $i
-
-#Preprocess rnaseq data downloaded from SRA for annotating the Datisca genome
 
 #Run FASTQ before trimming and aligning
 
@@ -50,8 +51,6 @@ ${f}.clean_2.fq.gz --outdir ${DATE}
 
 cd ..
 done
-
-
 
 conda deactivate
 

@@ -32,7 +32,7 @@ parallel-fastq-dump --sra-id SRR9623${SLURM_ARRAY_TASK_ID} --threads 4 --outdir 
 conda deactivate
 
 exit
-
+#
 
 
 
