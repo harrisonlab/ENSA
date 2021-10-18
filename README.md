@@ -6,7 +6,7 @@
 
 The pipeline I developed is illustrated here: 
 
-![](Slide1)
+![](Slide1.jpeg)
 
 There are 4 main folders where the scripts reside: 
 - genome_annotation
