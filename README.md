@@ -6,7 +6,7 @@
 
 The pipeline I developed is illustrated here: 
 
-![Alt text](/home/illorens/ENSA/Slide1?raw=true "Title")
+![](/home/illorens/ENSA/Slide1)
 
 There are 4 main folders where the scripts reside: 
 - genome_annotation
