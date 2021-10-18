@@ -4,6 +4,10 @@
 
 <This repository contains the scripts used for the ENSA project.>
 
+The pipeline I developed is illustrated here: 
+
+![Alt text](/home/illorens/ENSA/Slide1?raw=true "Title")
+
 There are 4 main folders where the scripts reside: 
 - genome_annotation
 - orthologue_finder
