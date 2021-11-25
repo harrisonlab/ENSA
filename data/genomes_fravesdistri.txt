@@ -1,0 +1,2 @@
+Fraves  Fraves.v2.genome.fasta
+Distri  GCA_003254975.1_ASM325497v1_genomic.fna

@@ -1,0 +1,11 @@
+Sagthe  Sageretia_theezans.softmasked.fasta
+Maldom  Maldom.fna
+Purtri  GCA_003254885.1_ASM325488v1_genomic.fna
+Zizjuj  GCF_000826755.1_ZizJuj_1.1_genomic.fna
+Pyrbre  GCF_000315295.1_Pbr_v1.0_genomic.fna
+Prumum  GCF_000346735.1_P.mume_V1.0_genomic.fna
+Drydru  GCA_003254865.1_ASM325486v1_genomic.fna
+Pyrcom  Pyrus_communis_v1.0-scaffolds.fna
+Geuurb  GCA_900236755.1_G_urb_d1_genomic.fna
+Rubocc  Rubus_occidentalis_v1.0.a1.scaffolds.fasta
+Roschi  RchiOBHm-V2.genome.fasta

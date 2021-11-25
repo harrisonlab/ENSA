@@ -1,0 +1,2 @@
+Drydru  GCA_003254865.1_ASM325486v1_genomic.fna
+Purtri  GCA_003254885.1_ASM325488v1_genomic.fna

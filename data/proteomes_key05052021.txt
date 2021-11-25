@@ -1,0 +1,25 @@
+Zizjuj  Zizjuj.proteome.fasta
+Rubocc  Rubocc.proteome.fasta
+Roschi  Roschi.proteome.fasta
+Pyrbre  Pyrbre.proteome.fasta
+Pruper  Pruper.proteome.fasta
+Maldom  Maldom.proteome.fasta
+Pyrcom  Pyrcom.proteome.fasta
+Fraana  Fraana.proteome.fasta
+Purtri  Purtri.proteome.fasta
+Colpar  Colpar.augustus.hints.aa
+Collul  Collul.augustus.hints.aa
+Datglo  Datglo.augustus.hints.aa
+Sagthe  Sagthe.augustus.hints.aa
+Ceathy  Ceathy.augustus.hints.aa
+Geuurb  Geuurb.augustus.hints.aa
+Cermon  Cermon.augustus.hints.aa
+Rubell  Rubell.augustus.hints.aa
+Distri  Distri.proteome.fasta
+Prumum  Prumum_GCF_000346735.1_P.mume_V1.0_cds_from_genomi.fasta
+Pruavi  Pruavi_PAV_r1.0.fasta
+Fraves  Fraves.proteome.fasta
+Drydru  Drydru_Dryas_drummondii_v1_b2.fasta
+Rubide  ?
+
+

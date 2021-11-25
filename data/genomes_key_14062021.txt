@@ -1,0 +1,10 @@
+Datglo  Datglo.softmasked.fasta
+Rubell  Rubus_ellipticus.softmasked.fasta
+Elaang  Elaeagnus_angustifolia.softmasked.fasta
+Rubide  Rubus_idaeus_AB.softmasked.fasta
+Purtri  Purshia_tridentata.softmasked.fasta
+Filulm  Filipendula_ulmaria.softmasked.fasta
+Coluli  Colletia_ulcina.softmasked.fasta
+Ceathy  Ceanothus_thyrsiflorus.softmasked.fasta
+Colpar  Colletia_paradoxa.softmasked.fasta
+Cermon  Cercocarpus_montanus.softmasked.fasta

@@ -1,0 +1,12 @@
+Pruavi  Prunus_avium_v1.0.a1_pseudomolecule.fasta
+Fraana  Fragaria_x_ananassa_Reference_Genome_v1.0_FANhybrid_r1.2_scaffolds.fasta
+Fraves  Fragaria_vesca_v4.0.a1.ns.fasta
+Fracam  F_ana_Camarosa_6-28-17_hardmasked.fasta
+Lotjap  GCA_000181115.2_Lj3.0_genomic.fna
+Medtru  GCA_000219495.2_MedtrA17_4.0_genomic.fna
+Distri  GCA_003254975.1_ASM325497v1_genomic.fna
+Parand  PanWU01x14.scf.fasta
+Lupang  Lupang.fna
+Glymax  Glymax.fna
+Cicer   Cicer.fna
+Aradur  Aradur.fna

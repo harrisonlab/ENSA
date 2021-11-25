@@ -1,0 +1,2 @@
+Aradur  Aradur.fna
+Pruavi  Prunus_avium_v1.0.a1_pseudomolecule.fasta

@@ -1,0 +1,5 @@
+Datglo  Datglo.sl.proteome.fasta
+Purtri  Purtri.proteome.fasta
+Drydru  Drydru_Dryas_drummondii_v1_b2.fasta
+Fraves  Fraves.primary.proteome.fasta
+Parand  Parand.proteome.fasta

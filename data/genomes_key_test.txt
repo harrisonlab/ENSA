@@ -1,0 +1,5 @@
+Datglo  Datglo.softmasked.fasta
+Purtri  Purshia_tridentata.softmasked.fasta
+Drydru  GCA_003254865.1_ASM325486v1_genomic.fna
+Fraves  Fragaria_vesca_v4.0.a1.ns.fasta
+Parand  PanWU01x14.scf.fasta

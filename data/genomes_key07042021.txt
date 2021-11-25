@@ -1,0 +1,2 @@
+Rubocc  Rubus_occidentalis_v1.0.a1.scaffolds.fasta
+Pruper  Prunus_persica_v2.0.a1_scaffolds.fasta

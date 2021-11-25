@@ -1,0 +1,4 @@
+Lupang  Lupang.fna
+Glymax  Glymax.fna
+Cicer   Cicer.fna
+Aradur  Aradur.fna
